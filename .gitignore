@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Tool/cache dirs
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+.coverage
+htmlcov/
+
+# Local/editor/project metadata
+.qodo/
+.zencoder/
+.zenflow/
+
+# ML artifacts / datasets
+data/
+model_weights.pth
+
+# OS junk
+.DS_Store
+Thumbs.db

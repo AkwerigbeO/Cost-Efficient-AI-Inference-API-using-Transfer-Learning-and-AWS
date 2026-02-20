@@ -1,0 +1,27 @@
+# VCS
+.git/
+.gitignore
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+# Local envs
+venv/
+.venv/
+env/
+
+# Local tooling folders
+.qodo/
+.zencoder/
+.zenflow/
+
+# Training/data not needed to run API
+training/
+data/
+
+# Docs/dev
+README.md
